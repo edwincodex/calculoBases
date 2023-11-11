@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.mycompany.calculobases.CalculadoraTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.055 s <<< FAILURE! - in com.mycompany.calculobases.CalculadoraTest
+testBaseHexadecimal  Time elapsed: 0.023 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.mycompany.calculobases.CalculadoraTest.testBaseHexadecimal(CalculadoraTest.java:100)
+
+testBaseOctal  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.mycompany.calculobases.CalculadoraTest.testBaseOctal(CalculadoraTest.java:86)
+
+testBaseDecimal  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.mycompany.calculobases.CalculadoraTest.testBaseDecimal(CalculadoraTest.java:60)
+
+testDecimalXbinario  Time elapsed: 0.006 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <1001>
+	at com.mycompany.calculobases.CalculadoraTest.testDecimalXbinario(CalculadoraTest.java:114)
+
+testDeBaseXABaseY  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <> but was: <null>
+	at com.mycompany.calculobases.CalculadoraTest.testDeBaseXABaseY(CalculadoraTest.java:47)
+
+testBaseBinario  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <false> but was: <true>
+	at com.mycompany.calculobases.CalculadoraTest.testBaseBinario(CalculadoraTest.java:73)
+
